@@ -16,7 +16,7 @@
         {
             "name": "Remzi Kocak",
             "email": "me@remzikocak.com"
-        },
+        }
     ],
     "require": {
         "php": ">=7.3",
