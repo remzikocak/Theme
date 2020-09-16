@@ -1,4 +1,6 @@
-# Theme support for Laravel 6 | 5
+# This is a fork of [yaapis/Theme](https://github.com/yaapis/Theme) and adds compatibility for Laravel 8.
+
+# Theme support for Laravel 6 / 7 / 8
 
 Inspired by [bigecko/laravel-theme](https://github.com/harryxu/laravel-theme).
 Themes are stored inside default laravel's resources folder
@@ -8,13 +10,13 @@ Themes are stored inside default laravel's resources folder
 Require this package in your composer.json:
 
 ~~~bash
-composer require yaap/theme
+composer require remzikocak/theme
 ~~~
 
 Or manually add 
 
 ~~~json
-"yaap/theme": "4.*"
+"remzikocak/theme": "4.*"
 ~~~
 
 
@@ -150,10 +152,6 @@ Use laravel mix for assets.
 ###Fallback capability
 
 You still able to use default `View::make('emails.notify')` which is stored outside the themes directory
-
-## Can I hire you guys?
-Yes! Say hi: [hello@hexide-digital.com](mailto:hello@hexide-digital.com) </br>
-We will be happy to work with you! Other [work we’ve done](https://hexide-digital.com/)
 
 ## Follow us
 Stay up to date with the latest Vuestic news! Follow us on [LinkedIn](https://www.linkedin.com/company/hexide-digital) or [Facebook](https://www.facebook.com/hexide.digital)
